@@ -270,13 +270,13 @@
       <node id="19" label="PDMP">
         <attvalues>
           <attvalue for="size" value="1"></attvalue>
-          <attvalue for="publication" value="Patterns of Potential Opioid Misus and Subsequebr Adverse Outcomes in Medicare, 2008 to 2012"></attvalue>
+          <attvalue for="publication" value="Patterns of Potential Opioid Misus and Subsequent Adverse Outcomes in Medicare, 2008 to 2012"></attvalue>
           <attvalue for="cat" value="Pharma"></attvalue>
           <attvalue for="size (s/m/l)" value="S"></attvalue>
           <attvalue for="start" value="2007"></attvalue>
           <attvalue for="end" value="2020"></attvalue>
           <attvalue for="weight" value="1"></attvalue>
-          <attvalue for="abstract" value="Observational study compaaring outcomes for Medicare enrolles with potential opiod misus patterns"></attvalue>
+          <attvalue for="abstract" value="Observational study comparing outcomes for Medicare enrollees with potential opiod misus patterns"></attvalue>
           <attvalue for="url" value="https://www.acpjournals.org/doi/10.7326/M17-3065"></attvalue>
         </attvalues>
         <viz:size value="50.0"></viz:size>
