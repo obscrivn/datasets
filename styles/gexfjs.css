@@ -35,9 +35,13 @@ h1 a {
     color: #208020;
     display: block;
     height:45px;
-    margin: 0;
+    margin-bottom: 10;
     text-indent: -9999px;
     width: 195px;
+}
+
+h4 {
+    margin-left:600;
 }
 
 #searchinput {

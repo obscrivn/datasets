@@ -1,7 +1,7 @@
 /*** USE THIS FILE TO SET OPTIONS ***/
 
 GexfJS.setParams({
-    graphFile : "dataset4.gexf",
+    graphFile : "dataset5.gexf",
         /*
             The GEXF file to show ! -- can be overriden by adding
             a hash to the document location, e.g. index.html#celegans.gexf
@@ -44,7 +44,7 @@ GexfJS.setParams({
             Enable the replacement of Urls by Hyperlinks
             this setting can't be changed from the User Interface
         */
-    showEdgeWeight : true,
+    showEdgeWeight : false,
         /*
             Show the weight of edges in the list
             this setting can't be changed from the User Interface
@@ -54,12 +54,12 @@ GexfJS.setParams({
         /*
             Alphabetically sort node attributes
          */
-    showId : true,
+    showId : false,
         /*
             Show the id of the node in the list
             this setting can't be changed from the User Interface
         */
-    showEdgeArrow : true,
+    showEdgeArrow : false,
         /*
             Show the edge arrows when the edge is directed
             this setting can't be changed from the User Interface
