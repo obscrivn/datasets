@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2020-09-08">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="size" title="Size" type="integer"></attribute>
+      <attribute id="description" title="Description" type="string"></attribute>
+      <attribute id="cat" title="cat" type="string"></attribute>
+      <attribute id="size (s/m/l)" title="size (s/m/l)" type="string"></attribute>
+      <attribute id="start" title="start" type="string"></attribute>
+      <attribute id="end" title="end" type="string"></attribute>
+      <attribute id="weight" title="weight" type="string"></attribute>
+      <attribute id="data source" title="Data Source" type="string"></attribute>
+      <attribute id="data dictionary" title="Data Dictionary" type="string"></attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="relation type" title="relation type" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="CDC Opioid Mortality">
+        <attvalues>
+          <attvalue for="size" value="1"></attvalue>
+          <attvalue for="description" value="A dataset of drug poisoning deaths at the national, state, and county levels as reported by mortality medical coders, nosologists, and other individuals responsible for processing vital records."></attvalue>
+          <attvalue for="cat" value="Harms"></attvalue>
+          <attvalue for="size (s/m/l)" value="S"></attvalue>
+          <attvalue for="start" value="1999"></attvalue>
+          <attvalue for="end" value="2018"></attvalue>
+          <attvalue for="weight" value="1"></attvalue>
+          <attvalue for="data source" value="https://www.cdc.gov/nchs/data-visualization/drug-poisoning-mortality/"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="378.3902" y="-246.75854"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="1" label="TEDS admissions">
+        <attvalues>
+          <attvalue for="size" value="3"></attvalue>
+          <attvalue for="description" value="A national data system of annual admissions to substance abuse treatment facilities because substance abuse treatment programs are required by state laws to report their publically-funded admissions to the state. Some states also collect privately-funded admissions from facilities that receive public funding."></attvalue>
+          <attvalue for="cat" value="Harms"></attvalue>
+          <attvalue for="size (s/m/l)" value="L"></attvalue>
+          <attvalue for="start" value="1992"></attvalue>
+          <attvalue for="end" value="2017"></attvalue>
+          <attvalue for="weight" value="3"></attvalue>
+          <attvalue for="data source" value="https://www.datafiles.samhsa.gov/study-series/treatment-episode-data-set-admissions-teds-nid13518;"></attvalue>
+          <attvalue for="data dictionary" value="http://samhda.s3-us-gov-west-1.amazonaws.com/s3fs-public/field-uploads-protected/studies/TEDS-A-2017/TEDS-A-2017-datasets/TEDS-A-2017-DS0001/TEDS-A-2017-DS0001-info/TEDS-A-2017-DS0001-info-codebook.pdf"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="163.20683" y="-483.0877"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="2" label="NAS">
+        <attvalues>
+          <attvalue for="size" value="1"></attvalue>
+          <attvalue for="description" value="A nationally representative survey of U.S. adults (age 18+) involving alcohol questions and repeated at approximately 5-year intervals since the 1960s."></attvalue>
+          <attvalue for="cat" value="Harms"></attvalue>
+          <attvalue for="size (s/m/l)" value="S"></attvalue>
+          <attvalue for="start" value="1979"></attvalue>
+          <attvalue for="end" value="2015"></attvalue>
+          <attvalue for="weight" value="1"></attvalue>
+          <attvalue for="data source" value="http://arg.org/nas-datasets/; http://arg.org/center/national-alcohol-surveys/"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="494.7964" y="-96.12733"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="3" label="NSDUH">
+        <attvalues>
+          <attvalue for="size" value="2"></attvalue>
+          <attvalue for="description" value="A yearly national survey since 1971 about tobacco, alcohol, and drug use, mental health, and other health-related issues."></attvalue>
+          <attvalue for="cat" value="Harms"></attvalue>
+          <attvalue for="size (s/m/l)" value="M"></attvalue>
+          <attvalue for="start" value="1971"></attvalue>
+          <attvalue for="end" value="2018"></attvalue>
+          <attvalue for="weight" value="2"></attvalue>
+          <attvalue for="data source" value="https://nsduhweb.rti.org/respweb/homepage.cfm"></attvalue>
+          <attvalue for="data dictionary" value="https://pdas.samhsa.gov/#/survey/N-SSATS-2018-DS0001"></attvalue>
+        </attvalues>
+        <viz:size value="75.0"></viz:size>
+        <viz:position x="653.2821" y="-305.9563"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="4" label="NPDS">
+        <attvalues>
+          <attvalue for="size" value="3"></attvalue>
+          <attvalue for="description" value="A national dataset of the number of cases involving human or animal poisioning or exposure to poision as reported by poison centers in the U.S."></attvalue>
+          <attvalue for="cat" value="Harms"></attvalue>
+          <attvalue for="size (s/m/l)" value="L"></attvalue>
+          <attvalue for="start" value="2011"></attvalue>
+          <attvalue for="end" value="2019"></attvalue>
+          <attvalue for="weight" value="3"></attvalue>
+          <attvalue for="data source" value="https://aapcc.org/track/opioids; https://piper.filecamp.com/uniq/VvF2ELEL6RwIOqVP.pdf; https://piper.filecamp.com/uniq/DRw83uhg79UetPPw.pdf; https://aapcc.org/data-system; https://piper.filecamp.com/uniq/meDKF2EpE2jsmTOs.pdf (used to calculate # of records; 5753 cases per day times 365)"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="-89.65164" y="-325.8831"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="5" label="MEPS">
+        <attvalues>
+          <attvalue for="size" value="3"></attvalue>
+          <attvalue for="description" value="A national survey of families and individuals, their medical providers, and employers across the U.S. with questions about specific health services, frequency of use of health services, cost of health services, how the health services are pair for, and the cost, scope, and breadth of health insurance held by and available to U.S. workers."></attvalue>
+          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="size (s/m/l)" value="L"></attvalue>
+          <attvalue for="start" value="1996"></attvalue>
+          <attvalue for="end" value="2018"></attvalue>
+          <attvalue for="weight" value="3"></attvalue>
+          <attvalue for="data source" value="https://www.meps.ahrq.gov/mepsweb/about_meps/survey_back.jsp;"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="-719.707" y="528.03796"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="6" label="N-SSATs">
+        <attvalues>
+          <attvalue for="size" value="2"></attvalue>
+          <attvalue for="description" value="An annual census of all treatment facilities listed on the I-BHS, an electronic master list of all organized substance abuse treatment faciliies known to the SAMHSA. Information on location, organization, structure, services, and utilization of substance abuse treatment facilities in the U.S. is collected."></attvalue>
+          <attvalue for="cat" value="Jobs"></attvalue>
+          <attvalue for="size (s/m/l)" value="M"></attvalue>
+          <attvalue for="start" value="1997"></attvalue>
+          <attvalue for="end" value="2018"></attvalue>
+          <attvalue for="weight" value="2"></attvalue>
+          <attvalue for="data source" value="https://wwwdasis.samhsa.gov/dasis2/nssats.htm;"></attvalue>
+          <attvalue for="data dictionary" value="https://wwwdasis.samhsa.gov/dasis2/nssats/NSSATS_2018/NSSATS-2018-C.pdf"></attvalue>
+        </attvalues>
+        <viz:size value="75.0"></viz:size>
+        <viz:position x="852.3154" y="-10.670807"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="7" label="QCEW">
+        <attvalues>
+          <attvalue for="size" value="3"></attvalue>
+          <attvalue for="description" value="Quarterly count of employment and wages reported by employers covering more than 95% of U.S. jobs available at the county, Metropolitan Statistical Area, state and national levels by detailed industry."></attvalue>
+          <attvalue for="cat" value="Jobs"></attvalue>
+          <attvalue for="size (s/m/l)" value="L"></attvalue>
+          <attvalue for="start" value="1975"></attvalue>
+          <attvalue for="end" value="2019"></attvalue>
+          <attvalue for="weight" value="3"></attvalue>
+          <attvalue for="data source" value="https://www.bls.gov/cew/;"></attvalue>
+          <attvalue for="data dictionary" value="https://data.bls.gov/cew/doc/layouts/cty_high_level_layout.htm"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="643.88544" y="497.41592"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="8" label="TEDS Discharge">
+        <attvalues>
+          <attvalue for="size" value="3"></attvalue>
+          <attvalue for="description" value="A national data system of annual number and characteristics of person discharged from public and private substance abuse treatment programs that receive public funding, as reported by law to state substance abuse agencies by the treatment programs."></attvalue>
+          <attvalue for="cat" value="Harms"></attvalue>
+          <attvalue for="size (s/m/l)" value="L"></attvalue>
+          <attvalue for="start" value="2006"></attvalue>
+          <attvalue for="end" value="2018"></attvalue>
+          <attvalue for="weight" value="3"></attvalue>
+          <attvalue for="data source" value="https://www.datafiles.samhsa.gov/study-dataset/teds-d-2017-ds0001-teds-d-2017-ds0001-nid18480"></attvalue>
+          <attvalue for="data dictionary" value="https://www.datafiles.samhsa.gov/sites/default/files/field-uploads-protected/studies/TEDS-D-2017/TEDS-D-2017-datasets/TEDS-D-2017-DS0001/TEDS-D-2017-DS0001-info/TEDS-D-2017-DS0001-info-codebook.pdf"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="458.65576" y="-436.07538"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="9" label="IPEDS">
+        <attvalues>
+          <attvalue for="size" value="3"></attvalue>
+          <attvalue for="description" value="A national dataset of enrollments, completions and completers, graduation rates, faculty and staff, finances, institutional prices, student financial aid, admissions, and academic libraries as required to disclose by the Higher Education Act of 1965 from every college, university, and technical/vocational institution that participations in the federal student financial aid programs."></attvalue>
+          <attvalue for="cat" value="Jobs"></attvalue>
+          <attvalue for="size (s/m/l)" value="L"></attvalue>
+          <attvalue for="start" value="1986"></attvalue>
+          <attvalue for="end" value="2018"></attvalue>
+          <attvalue for="weight" value="3"></attvalue>
+          <attvalue for="data source" value="https://nces.ed.gov/ipeds/; "></attvalue>
+          <attvalue for="data dictionary" value=""></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="382.71027" y="597.1388"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="10" label="CBP">
+        <attvalues>
+          <attvalue for="size" value="3"></attvalue>
+          <attvalue for="description" value="A national database of annual statistics for businesses with paid employees within the U.S. and U.S. terriroties, taken from the Business Register. Data includes the number of establishments, employment during the week of March 12, first quarter payroll, and annual payroll."></attvalue>
+          <attvalue for="cat" value="Jobs"></attvalue>
+          <attvalue for="size (s/m/l)" value="L"></attvalue>
+          <attvalue for="start" value="1986"></attvalue>
+          <attvalue for="end" value="2017"></attvalue>
+          <attvalue for="weight" value="3"></attvalue>
+          <attvalue for="data source" value="https://www.census.gov/programs-surveys/cbp/data/datasets.html; "></attvalue>
+          <attvalue for="data dictionary" value="https://www2.census.gov/programs-surveys/cbp/technical-documentation/records-layouts/2017_record_layouts/county_layout_2017.txt"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="839.92804" y="309.54608"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="11" label="ACS">
+        <attvalues>
+          <attvalue for="size" value="3"></attvalue>
+          <attvalue for="description" value="A monthly national survey sent to a sample of people across the U.S. that asks questions about education, employment, internet access, transportation, etc."></attvalue>
+          <attvalue for="cat" value="Jobs"></attvalue>
+          <attvalue for="size (s/m/l)" value="L"></attvalue>
+          <attvalue for="start" value="2005"></attvalue>
+          <attvalue for="end" value="2018"></attvalue>
+          <attvalue for="weight" value="3"></attvalue>
+          <attvalue for="data source" value="https://www.census.gov/programs-surveys/acs/data.html;"></attvalue>
+          <attvalue for="data dictionary" value="https://www2.census.gov/programs-surveys/acs/summary_file/2018/data/README_2018_FTP_Archives.pdf"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="591.8208" y="121.19331"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="12" label="Sunshine Act">
+        <attvalues>
+          <attvalue for="size" value="3"></attvalue>
+          <attvalue for="description" value="A national disclosure program provides detailed information on financial relationships including consulting fees, research grants, travel reimbursements, ownership, and other direct payments from manufacturers to medical practitioners (physicians and teaching hospitals)."></attvalue>
+          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="size (s/m/l)" value="L"></attvalue>
+          <attvalue for="start" value="2013"></attvalue>
+          <attvalue for="end" value="2019"></attvalue>
+          <attvalue for="weight" value="3"></attvalue>
+          <attvalue for="data source" value="https://www.cms.gov/OpenPayments;"></attvalue>
+          <attvalue for="data dictionary" value="https://www.cms.gov/OpenPayments/Downloads/OpenPaymentsDataDictionary.pdf"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="-135.274" y="670.224"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="13" label="MEDICAID">
+        <attvalues>
+          <attvalue for="size" value="3"></attvalue>
+          <attvalue for="description" value="A national dataset reported by states for covered outpatient drugs that are paid for by state Medicaid agencies since the start of the Medicaid Drug Rebate Program. The data includes state, drug name, National Drug Code, number of prescriptions, and dollars reimbursed."></attvalue>
+          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="size (s/m/l)" value="L"></attvalue>
+          <attvalue for="start" value="1991"></attvalue>
+          <attvalue for="end" value="2019"></attvalue>
+          <attvalue for="weight" value="3"></attvalue>
+          <attvalue for="data source" value="https://data.medicaid.gov/State-Drug-Utilization/State-Drug-Utilization-Data-1991/cnf4-jwwr"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="-462.53668" y="627.4966"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="14" label="Medicare">
+        <attvalues>
+          <attvalue for="size" value="2"></attvalue>
+          <attvalue for="description" value="A national database of all transactions covered by the Medicare prescription drug plan for both Prescription Drug Plans (PDPs) and Medicare Advantage Prescription Drug Plans (MA-PDs). Variables include service date, produce service ID, quantity dispensed, days supply, cost, payment, and linkage variables."></attvalue>
+          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="size (s/m/l)" value="M"></attvalue>
+          <attvalue for="start" value="2006"></attvalue>
+          <attvalue for="end" value="2017"></attvalue>
+          <attvalue for="weight" value="2"></attvalue>
+          <attvalue for="data source" value="https://data.medicare.gov/;"></attvalue>
+        </attvalues>
+        <viz:size value="75.0"></viz:size>
+        <viz:position x="-462.43423" y="423.30905"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="15" label="ARCOS">
+        <attvalues>
+          <attvalue for="size" value="2"></attvalue>
+          <attvalue for="description" value="An automated, comprehaensive drug reporting system which monitors the flow of DEA controlled substances from their point of manufacture through commercial distribution channels to point of sale or distribution of the dispensing/retail level."></attvalue>
+          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="size (s/m/l)" value="M"></attvalue>
+          <attvalue for="start" value="2006"></attvalue>
+          <attvalue for="end" value="2019"></attvalue>
+          <attvalue for="weight" value="2"></attvalue>
+          <attvalue for="data source" value="https://www.deadiversion.usdoj.gov/arcos/retail_drug_summary/"></attvalue>
+          <attvalue for="data dictionary" value="https://www.deadiversion.usdoj.gov/arcos/index.html#background"></attvalue>
+        </attvalues>
+        <viz:size value="75.0"></viz:size>
+        <viz:position x="-617.4022" y="128.46457"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="16" label="CDC Prescription">
+        <attvalues>
+          <attvalue for="size" value="1"></attvalue>
+          <attvalue for="description" value="The source for all prescribing data comes from IQVIA Xponent, which is based on a sample of approximately 49,900 retail (non-hospital) pharmacies, which dispense nearly 92% of all retail prescriptions in the U.S. This database does not include mail order prescriptions."></attvalue>
+          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="size (s/m/l)" value="S"></attvalue>
+          <attvalue for="start" value="2006"></attvalue>
+          <attvalue for="end" value="2018"></attvalue>
+          <attvalue for="weight" value="1"></attvalue>
+          <attvalue for="data source" value="https://wonder.cdc.gov/"></attvalue>
+          <attvalue for="data dictionary" value="https://wonder.cdc.gov/wonder/help/ucd.html#"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-246.20868" y="383.84534"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="17" label="NAMSDL">
+        <attvalues>
+          <attvalue for="size" value="1"></attvalue>
+          <attvalue for="description" value="NAMSDL, originally President's Commission on Model State Drug Laws, was established to create model codes of laws to help states effectively address alcohol and other drug abuse. Topics include prevention and intervention, treatment, recovery support, overdose abatement, criminal justice, alcohol, and PDMPs."></attvalue>
+          <attvalue for="cat" value="Policy"></attvalue>
+          <attvalue for="size (s/m/l)" value="S"></attvalue>
+          <attvalue for="start" value="1993"></attvalue>
+          <attvalue for="end" value="2019"></attvalue>
+          <attvalue for="weight" value="1"></attvalue>
+          <attvalue for="data source" value="https://namsdl.org/"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-584.8573" y="-266.3338"></viz:position>
+        <viz:color r="0" g="183" b="218"></viz:color>
+      </node>
+      <node id="18" label="PDAPS">
+        <attvalues>
+          <attvalue for="size" value="1"></attvalue>
+          <attvalue for="description" value="A national database that tracks key state laws related to prescription drug abuse. Topic areas include criminal justice, expanded access to naloxone, good samaritan 911 immunity, medical marijuana, opioid related controls, and PDMP."></attvalue>
+          <attvalue for="cat" value="Policy"></attvalue>
+          <attvalue for="size (s/m/l)" value="S"></attvalue>
+          <attvalue for="start" value="2001"></attvalue>
+          <attvalue for="end" value="2017"></attvalue>
+          <attvalue for="weight" value="1"></attvalue>
+          <attvalue for="data source" value="http://pdaps.org/"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-461.01605" y="-319.50586"></viz:position>
+        <viz:color r="0" g="183" b="218"></viz:color>
+      </node>
+      <node id="19" label="PDMP">
+        <attvalues>
+          <attvalue for="size" value="1"></attvalue>
+          <attvalue for="description" value="An electronic database that tracks controlled substance prescriptions in a state in real time. Not every state has a PDMP and what information practitioners and pharmacists are required to include differ by state. The Kentucky All Schedule Prescription Electronic Reporting system, or KASPER, represents one standard of these data systems."></attvalue>
+          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="size (s/m/l)" value="S"></attvalue>
+          <attvalue for="start" value="2007"></attvalue>
+          <attvalue for="end" value="2020"></attvalue>
+          <attvalue for="weight" value="1"></attvalue>
+          <attvalue for="data source" value="https://www.cdc.gov/drugoverdose/pdmp/states.html"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-719.11896" y="292.1943"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="2" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="3" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="4" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="6" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="7" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="8" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="0" target="9" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="10" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="0" target="11" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="0" target="12" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="0" target="13" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="0" target="14" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="0" target="15" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="0" target="16" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="0" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="0" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="1" target="2" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="1" target="3" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="1" target="4" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="1" target="6" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="1" target="7" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1" target="8" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="1" target="9" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1" target="10" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="1" target="11" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="12" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="1" target="13" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="1" target="14" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="1" target="15" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="1" target="16" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="1" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="1" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="2" target="3" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="2" target="4" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="2" target="6" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="2" target="7" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="2" target="8" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="2" target="9" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="2" target="10" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="2" target="11" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="2" target="12" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="2" target="13" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="2" target="14" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="2" target="15" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="2" target="16" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="2" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="2" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="3" target="4" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="3" target="6" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="3" target="7" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="3" target="8" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="3" target="9" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="3" target="10" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="3" target="11" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="3" target="12" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="3" target="13" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="3" target="14" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="3" target="15" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="3" target="16" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="3" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="3" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="4" target="6" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="4" target="7" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="4" target="8" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="4" target="9" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="4" target="10" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="4" target="11" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="4" target="12" label="State, Drug Name" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="4" target="13" label="State, Drug Name" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="4" target="14" label="State, Drug Name" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="4" target="15" label="State, Drug Name" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="4" target="16" label="State, Drug Name" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="4" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="4" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="6" target="7" label="State, NAICS" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="6" target="8" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="6" target="9" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="6" target="10" label="State, NAICS" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="6" target="11" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="6" target="12" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="6" target="13" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="6" target="14" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="6" target="15" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="6" target="16" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="6" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="6" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="7" target="8" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="7" target="9" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="7" target="10" label="State, County" weight="3.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="7" target="11" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="7" target="12" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="7" target="13" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="7" target="14" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="7" target="15" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="7" target="16" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="7" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="7" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="8" target="9" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="8" target="10" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="8" target="11" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="8" target="12" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="8" target="13" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="8" target="14" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="8" target="15" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="8" target="16" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="8" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="8" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="9" target="10" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="9" target="11" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="9" target="12" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="9" target="13" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="9" target="14" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="9" target="15" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="9" target="16" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="9" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="9" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="10" target="11" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="10" target="12" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="10" target="13" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="10" target="14" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="10" target="15" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="10" target="16" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="10" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="10" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="11" target="12" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="11" target="13" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="11" target="14" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="11" target="15" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="11" target="16" label="State, County" weight="2.0">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="11" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="11" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="12" target="13" label="State, Drug Name" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="12" target="14" label="State, City, Drug Name" weight="3.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="12" target="15" label="State, ZIP Code, Drug Name" weight="3.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="12" target="16" label="State, Drug Name" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="12" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="12" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="13" target="14" label="State, Drug Name" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="13" target="15" label="State, Drug Name" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="13" target="16" label="State, Drug Name" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="13" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="13" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="14" target="15" label="State, Drug Name" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="14" target="16" label="State, Drug Name" weight="2.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="14" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="14" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="15" target="16" label="State, County, Drug Name" weight="3.0">
+        <viz:color r="0" g="143" b="205"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk and Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="15" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="15" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="16" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="16" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="17" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="5" target="4" label="Drug Name">
+        <viz:color r="230" g="83" b="85"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="5" target="12" label="Drug Name">
+        <viz:color r="230" g="83" b="85"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="5" target="13" label="Drug Name">
+        <viz:color r="230" g="83" b="85"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="5" target="14" label="Drug Name">
+        <viz:color r="230" g="83" b="85"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="5" target="15" label="Drug Name">
+        <viz:color r="230" g="83" b="85"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="5" target="16" label="Drug Name">
+        <viz:color r="230" g="83" b="85"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Crosswalk"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="19" target="0" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="19" target="1" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="19" target="2" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="19" target="3" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="19" target="4" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="19" target="6" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="19" target="7" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="19" target="8" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="19" target="9" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="19" target="10" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="19" target="11" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="19" target="12" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="19" target="13" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="19" target="14" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="19" target="15" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="19" target="16" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="19" target="17" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="19" target="18" label="State">
+        <viz:color r="73" g="150" b="42"></viz:color>
+        <attvalues>
+          <attvalue for="relation type" value="Geo Unit"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
