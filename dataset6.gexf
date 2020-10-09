@@ -8,9 +8,9 @@
     <attributes class="node" mode="static">
       <attribute id="size" title="Size" type="integer"></attribute>
       <attribute id="description" title="Description" type="string"></attribute>
-      <attribute id="cat" title="category" type="string"></attribute>
+      <attribute id="category" title="category" type="string"></attribute>
       <attribute id="size (s/m/l)" title="size (s/m/l)" type="string"></attribute>
-      <attribute id="start" title="begin" type="string"></attribute>
+      <attribute id="begin" title="begin" type="string"></attribute>
       <attribute id="end" title="end" type="string"></attribute>
       <attribute id="weight" title="weight" type="string"></attribute>
       <attribute id="data source" title="Data Source" type="string"></attribute>
@@ -27,15 +27,15 @@
         <attvalues>
           <attvalue for="size" value="1"></attvalue>
           <attvalue for="description" value="A dataset of drug poisoning deaths at the national, state, and county levels as reported by mortality medical coders, nosologists, and other individuals responsible for processing vital records."></attvalue>
-          <attvalue for="cat" value="Direct-Indirect Harms"></attvalue>
+          <attvalue for="category" value="Direct-Indirect Harms"></attvalue>
           <attvalue for="size (s/m/l)" value="S"></attvalue>
-          <attvalue for="start" value="1999"></attvalue>
+          <attvalue for="begin" value="1999"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
           <attvalue for="weight" value="1"></attvalue>
           <attvalue for="data source" value="https://www.cdc.gov/nchs/data-visualization/drug-poisoning-mortality/"></attvalue>
           <attvalue for="pub1" value="Cornaggia, K. R., Hund, J., Nguyen, G., &amp; Ye, Z. (2020). Opioid Crisis Effects On Municipal Finance. SSRN, (3448082). Retrieved from https://papers.ssrn.com/abstract=3448082"></attvalue>
           <attvalue for="pub2" value="Anders, J. (2019). Medicaid, Marijuana and Opioids: Is Prescription Access to Blame? Rochester, NY. Retrieved from https://papers.ssrn.com/abstract=3247989"></attvalue>
-          <attvalue for="pub3" value="Deiana, C., Giua, L., &amp; Nistic�, R. (2019). The Economics Behind the Epidemic: Afghan Opium Price and Prescription Opioids in the US. Rochester, NY. Retrieved from https://papers.ssrn.com/abstract=3352893"></attvalue>
+          <attvalue for="pub3" value="Deiana, C., Giua, L., &amp; Nistic-, R. (2019). The Economics Behind the Epidemic: Afghan Opium Price and Prescription Opioids in the US. Rochester, NY. Retrieved from https://papers.ssrn.com/abstract=3352893"></attvalue>
         </attvalues>
         <viz:size value="50.0"></viz:size>
         <viz:position x="378.3902" y="-246.75854"></viz:position>
@@ -45,15 +45,15 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national data system of annual admissions to substance abuse treatment facilities because substance abuse treatment programs are required by state laws to report their publically-funded admissions to the state. Some states also collect privately-funded admissions from facilities that receive public funding."></attvalue>
-          <attvalue for="cat" value="Direct-Indirect Harms"></attvalue>
+          <attvalue for="category" value="Direct-Indirect Harms"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
-          <attvalue for="start" value="1992"></attvalue>
+          <attvalue for="begin" value="1992"></attvalue>
           <attvalue for="end" value="2017"></attvalue>
           <attvalue for="weight" value="3"></attvalue>
           <attvalue for="data source" value="https://www.datafiles.samhsa.gov/study-series/treatment-episode-data-set-admissions-teds-nid13518;"></attvalue>
           <attvalue for="data dictionary" value="http://samhda.s3-us-gov-west-1.amazonaws.com/s3fs-public/field-uploads-protected/studies/TEDS-A-2017/TEDS-A-2017-datasets/TEDS-A-2017-DS0001/TEDS-A-2017-DS0001-info/TEDS-A-2017-DS0001-info-codebook.pdf"></attvalue>
-          <attvalue for="pub1" value="Smith, R. A. (2020). The Effects of Medical Marijuana Dispensaries on Adverse Opioid Outcomes. Economic Inquiry, 58(2), 569�588. https://doi.org/10.1111/ecin.12825"></attvalue>
-          <attvalue for="pub2" value="Meinhofer, A., &amp; Witman, A. E. (2018). The role of health insurance on treatment for opioid use disorders: Evidence from the Affordable Care Act Medicaid expansion. Journal of Health Economics, 60, 177�197. https://doi.org/10.1016/j.jhealeco.2018.06.004"></attvalue>
+          <attvalue for="pub1" value="Smith, R. A. (2020). The Effects of Medical Marijuana Dispensaries on Adverse Opioid Outcomes. Economic Inquiry, 58(2), 569-588. https://doi.org/10.1111/ecin.12825"></attvalue>
+          <attvalue for="pub2" value="Meinhofer, A., &amp; Witman, A. E. (2018). The role of health insurance on treatment for opioid use disorders: Evidence from the Affordable Care Act Medicaid expansion. Journal of Health Economics, 60, 177-197. https://doi.org/10.1016/j.jhealeco.2018.06.004"></attvalue>
           <attvalue for="pub3" value="Powell, D., Pacula, R. L., &amp; Jacobson, M. (2015). Do Medical Marijuana Laws Reduce Addictions and Deaths Related to Pain Killers? National Bureau of Economic Research Working Paper Series, 21345. https://doi.org/10.3386/w21345"></attvalue>
         </attvalues>
         <viz:size value="100.0"></viz:size>
@@ -64,14 +64,14 @@
         <attvalues>
           <attvalue for="size" value="1"></attvalue>
           <attvalue for="description" value="A nationally representative survey of U.S. adults (age 18+) involving alcohol questions and repeated at approximately 5-year intervals since the 1960s."></attvalue>
-          <attvalue for="cat" value="Direct-Indirect Harms"></attvalue>
+          <attvalue for="category" value="Direct-Indirect Harms"></attvalue>
           <attvalue for="size (s/m/l)" value="S"></attvalue>
-          <attvalue for="start" value="1979"></attvalue>
+          <attvalue for="begin" value="1979"></attvalue>
           <attvalue for="end" value="2015"></attvalue>
           <attvalue for="weight" value="1"></attvalue>
           <attvalue for="data source" value="http://arg.org/nas-datasets/; http://arg.org/center/national-alcohol-surveys/"></attvalue>
-          <attvalue for="pub1" value="Karriker-Jaffe, K. J., Subbaraman, M. S., Greenfield, T. K., &amp; Kerr, W. C. (2018). Contribution of alcohol and drug co-use to substance use problems: Data from a nationally-representative sample of US adults who have never been to treatment. NAD Nordic Studies on Alcohol and Drugs, 35(6), 428�442. https://doi.org/10.1177/1455072518806122"></attvalue>
-          <attvalue for="pub2" value="Parish, W. J., Aldridge, A., Allaire, B., Ekwueme, D. U., Poehler, D., Guy, G. P., Thomas, C. C., &amp; Trogdon, J. G. (2017). A new methodological approach to adjust alcohol exposure distributions to improve the estimation of alcohol-attributable fractions. Addiction, 112(11), 2053�2063. https://doi.org/10.1111/add.13880"></attvalue>
+          <attvalue for="pub1" value="Karriker-Jaffe, K. J., Subbaraman, M. S., Greenfield, T. K., &amp; Kerr, W. C. (2018). Contribution of alcohol and drug co-use to substance use problems: Data from a nationally-representative sample of US adults who have never been to treatment. NAD Nordic Studies on Alcohol and Drugs, 35(6), 428-442. https://doi.org/10.1177/1455072518806122"></attvalue>
+          <attvalue for="pub2" value="Parish, W. J., Aldridge, A., Allaire, B., Ekwueme, D. U., Poehler, D., Guy, G. P., Thomas, C. C., &amp; Trogdon, J. G. (2017). A new methodological approach to adjust alcohol exposure distributions to improve the estimation of alcohol-attributable fractions. Addiction, 112(11), 2053-2063. https://doi.org/10.1111/add.13880"></attvalue>
         </attvalues>
         <viz:size value="50.0"></viz:size>
         <viz:position x="494.7964" y="-96.12733"></viz:position>
@@ -81,16 +81,16 @@
         <attvalues>
           <attvalue for="size" value="2"></attvalue>
           <attvalue for="description" value="A yearly national survey since 1971 about tobacco, alcohol, and drug use, mental health, and other health-related issues."></attvalue>
-          <attvalue for="cat" value="Direct-Indirect Harms"></attvalue>
+          <attvalue for="category" value="Direct-Indirect Harms"></attvalue>
           <attvalue for="size (s/m/l)" value="M"></attvalue>
-          <attvalue for="start" value="1971"></attvalue>
+          <attvalue for="begin" value="1971"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
           <attvalue for="weight" value="2"></attvalue>
           <attvalue for="data source" value="https://nsduhweb.rti.org/respweb/homepage.cfm"></attvalue>
           <attvalue for="data dictionary" value="https://pdas.samhsa.gov/#/survey/N-SSATS-2018-DS0001"></attvalue>
           <attvalue for="pub1" value="Mulligan, C. B. (2020). Prices and Federal Policies in Opioid Markets. https://doi.org/10.3386/w26812"></attvalue>
-          <attvalue for="pub2" value="Powell, D., Alpert, A., &amp; Pacula, R. L. (2019). A Transitioning Epidemic: How The Opioid Crisis Is Driving The Rise In Hepatitis C. Health Affairs, 38(2), 287�294. https://doi.org/10.1377/hlthaff.2018.05232"></attvalue>
-          <attvalue for="pub3" value="Beheshti, D. (2019). Adverse health effects of abuse?deterrent opioids: Evidence from the reformulation of OxyContin. Health Economics, 28(12), 1449�1461. https://doi.org/10.1002/hec.3944"></attvalue>
+          <attvalue for="pub2" value="Powell, D., Alpert, A., &amp; Pacula, R. L. (2019). A Transitioning Epidemic: How The Opioid Crisis Is Driving The Rise In Hepatitis C. Health Affairs, 38(2), 287-294. https://doi.org/10.1377/hlthaff.2018.05232"></attvalue>
+          <attvalue for="pub3" value="Beheshti, D. (2019). Adverse health effects of abuse?deterrent opioids: Evidence from the reformulation of OxyContin. Health Economics, 28(12), 1449-1461. https://doi.org/10.1002/hec.3944"></attvalue>
         </attvalues>
         <viz:size value="75.0"></viz:size>
         <viz:position x="653.2821" y="-305.9563"></viz:position>
@@ -100,14 +100,14 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national dataset of the number of cases involving human or animal poisioning or exposure to poision as reported by poison centers in the U.S."></attvalue>
-          <attvalue for="cat" value="Direct-Indirect Harms"></attvalue>
+          <attvalue for="category" value="Direct-Indirect Harms"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
-          <attvalue for="start" value="2011"></attvalue>
+          <attvalue for="begin" value="2011"></attvalue>
           <attvalue for="end" value="2019"></attvalue>
           <attvalue for="weight" value="3"></attvalue>
           <attvalue for="data source" value="https://aapcc.org/track/opioids; https://piper.filecamp.com/uniq/VvF2ELEL6RwIOqVP.pdf; https://piper.filecamp.com/uniq/DRw83uhg79UetPPw.pdf; https://aapcc.org/data-system; https://piper.filecamp.com/uniq/meDKF2EpE2jsmTOs.pdf (used to calculate # of records; 5753 cases per day times 365)"></attvalue>
-          <attvalue for="pub1" value="Eluri, M., Spiller, H. A., Casavant, M. J., Chounthirath, T., Conner, K. A., &amp; Smith, G. A. (2018). Analgesic-related medication errors reported to US poison control centers. Pain Medicine (United States), 19(12), 2357�2370. https://doi.org/10.1093/pm/pnx272"></attvalue>
-          <attvalue for="pub2" value="Sheridan, D. C., Laurie, A., Hendrickson, R. G., Fu, R., Kea, B., &amp; Horowitz, B. Z. (2016). Association of Overall Opioid Prescriptions on Adolescent Opioid Abuse. Journal of Emergency Medicine, 51(5), 485�490. https://doi.org/10.1016/j.jemermed.2016.06.049"></attvalue>
+          <attvalue for="pub1" value="Eluri, M., Spiller, H. A., Casavant, M. J., Chounthirath, T., Conner, K. A., &amp; Smith, G. A. (2018). Analgesic-related medication errors reported to US poison control centers. Pain Medicine (United States), 19(12), 2357-2370. https://doi.org/10.1093/pm/pnx272"></attvalue>
+          <attvalue for="pub2" value="Sheridan, D. C., Laurie, A., Hendrickson, R. G., Fu, R., Kea, B., &amp; Horowitz, B. Z. (2016). Association of Overall Opioid Prescriptions on Adolescent Opioid Abuse. Journal of Emergency Medicine, 51(5), 485-490. https://doi.org/10.1016/j.jemermed.2016.06.049"></attvalue>
           <attvalue for="pub3" value="Allen, J. D., Casavant, M. J., Spiller, H. A., Chounthirath, T., Hodges, N. L., &amp; Smith, G. A. (2017). Prescription opioid exposures among children and adolescents in the United States: 2000-2015. Pediatrics, 139(4). https://doi.org/10.1542/peds.2016-3382"></attvalue>
         </attvalues>
         <viz:size value="100.0"></viz:size>
@@ -118,15 +118,15 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national survey of families and individuals, their medical providers, and employers across the U.S. with questions about specific health services, frequency of use of health services, cost of health services, how the health services are pair for, and the cost, scope, and breadth of health insurance held by and available to U.S. workers."></attvalue>
-          <attvalue for="cat" value="Pharmaceutical"></attvalue>
+          <attvalue for="category" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
-          <attvalue for="start" value="1996"></attvalue>
+          <attvalue for="begin" value="1996"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
           <attvalue for="weight" value="3"></attvalue>
           <attvalue for="data source" value="https://www.meps.ahrq.gov/mepsweb/about_meps/survey_back.jsp;"></attvalue>
           <attvalue for="pub1" value="Alpert, A. E., Evans, W. N., Lieber, E. M. J., &amp; Powell, D. (2019). Origins of the Opioid Crisis and Its Enduring Impacts. https://doi.org/10.3386/w26500"></attvalue>
           <attvalue for="pub2" value="Soni, A. (2019). Health Insurance, Price Changes, and the Demand for Pain Relief Drugs: Evidence from Medicare Part D. Rochester, NY. Retrieved from https://papers.ssrn.com/abstract=3268968"></attvalue>
-          <attvalue for="pub3" value="Alpert, A., Powell, D., &amp; Pacula, R. L. (2018). Supply-Side Drug Policy in the Presence of Substitutes: Evidence from the Introduction of Abuse-Deterrent Opioids. American Economic Journal: Economic Policy, 10(4), 1�35. https://doi.org/10.1257/pol.20170082"></attvalue>
+          <attvalue for="pub3" value="Alpert, A., Powell, D., &amp; Pacula, R. L. (2018). Supply-Side Drug Policy in the Presence of Substitutes: Evidence from the Introduction of Abuse-Deterrent Opioids. American Economic Journal: Economic Policy, 10(4), 1-35. https://doi.org/10.1257/pol.20170082"></attvalue>
         </attvalues>
         <viz:size value="100.0"></viz:size>
         <viz:position x="-719.707" y="528.03796"></viz:position>
@@ -136,15 +136,15 @@
         <attvalues>
           <attvalue for="size" value="2"></attvalue>
           <attvalue for="description" value="An annual census of all treatment facilities listed on the I-BHS, an electronic master list of all organized substance abuse treatment faciliies known to the SAMHSA. Information on location, organization, structure, services, and utilization of substance abuse treatment facilities in the U.S. is collected."></attvalue>
-          <attvalue for="cat" value="Employment"></attvalue>
+          <attvalue for="category" value="Employment"></attvalue>
           <attvalue for="size (s/m/l)" value="M"></attvalue>
-          <attvalue for="start" value="1997"></attvalue>
+          <attvalue for="begin" value="1997"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
           <attvalue for="weight" value="2"></attvalue>
           <attvalue for="data source" value="https://wwwdasis.samhsa.gov/dasis2/nssats.htm;"></attvalue>
           <attvalue for="data dictionary" value="https://wwwdasis.samhsa.gov/dasis2/nssats/NSSATS_2018/NSSATS-2018-C.pdf"></attvalue>
-          <attvalue for="pub1" value="Grooms, J., &amp; Ortega, A. (2019). Examining Medicaid Expansion and the Treatment of Substance Use Disorders. AEA Papers and Proceedings, 109, 187�192. https://doi.org/10.1257/pandp.20191090"></attvalue>
-          <attvalue for="pub2" value="Maclean, J. C., &amp; Saloner, B. (2018). Substance Use Treatment Provider Behavior and Healthcare Reform: Evidence from Massachusetts. Health Economics, 27(1), 76�101. https://doi.org/10.1002/hec.3484"></attvalue>
+          <attvalue for="pub1" value="Grooms, J., &amp; Ortega, A. (2019). Examining Medicaid Expansion and the Treatment of Substance Use Disorders. AEA Papers and Proceedings, 109, 187-192. https://doi.org/10.1257/pandp.20191090"></attvalue>
+          <attvalue for="pub2" value="Maclean, J. C., &amp; Saloner, B. (2018). Substance Use Treatment Provider Behavior and Healthcare Reform: Evidence from Massachusetts. Health Economics, 27(1), 76-101. https://doi.org/10.1002/hec.3484"></attvalue>
           <attvalue for="pub3" value="Harris, K. (2017). The Effect of State Parity Laws on How Providers Treat Substance Use Disorder. Monthly Labor Review, 1b. Retrieved from https://www.questia.com/library/journal/1G1-500009397/the-effect-of-state-parity-laws-on-how-providers-treat"></attvalue>
         </attvalues>
         <viz:size value="75.0"></viz:size>
@@ -155,9 +155,9 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="Quarterly count of employment and wages reported by employers covering more than 95% of U.S. jobs available at the county, Metropolitan Statistical Area, state and national levels by detailed industry."></attvalue>
-          <attvalue for="cat" value="Employment"></attvalue>
+          <attvalue for="category" value="Employment"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
-          <attvalue for="start" value="1975"></attvalue>
+          <attvalue for="begin" value="1975"></attvalue>
           <attvalue for="end" value="2019"></attvalue>
           <attvalue for="weight" value="3"></attvalue>
           <attvalue for="data source" value="https://www.bls.gov/cew/;"></attvalue>
@@ -172,16 +172,16 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national data system of annual number and characteristics of person discharged from public and private substance abuse treatment programs that receive public funding, as reported by law to state substance abuse agencies by the treatment programs."></attvalue>
-          <attvalue for="cat" value="Direct-Indirect Harms"></attvalue>
+          <attvalue for="category" value="Direct-Indirect Harms"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
-          <attvalue for="start" value="2006"></attvalue>
+          <attvalue for="begin" value="2006"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
           <attvalue for="weight" value="3"></attvalue>
           <attvalue for="data source" value="https://www.datafiles.samhsa.gov/study-dataset/teds-d-2017-ds0001-teds-d-2017-ds0001-nid18480"></attvalue>
           <attvalue for="data dictionary" value="https://www.datafiles.samhsa.gov/sites/default/files/field-uploads-protected/studies/TEDS-D-2017/TEDS-D-2017-datasets/TEDS-D-2017-DS0001/TEDS-D-2017-DS0001-info/TEDS-D-2017-DS0001-info-codebook.pdf"></attvalue>
           <attvalue for="pub1" value="Askari, M. S., Martins, S. S., &amp; Mauro, P. M. (2020). Medication for opioid use disorder treatment and specialty outpatient substance use treatment outcomes: Differences in retention and completion among opioid-related discharges in 2016. Journal of Substance Abuse Treatment, 114(October 2019), 108028. https://doi.org/10.1016/j.jsat.2020.108028"></attvalue>
-          <attvalue for="pub2" value="Stahler, G. J., Mennis, J., &amp; DuCette, J. P. (2016). Residential and outpatient treatment completion for substance use disorders in the U.S.: Moderation analysis by demographics and drug of choice. Addictive Behaviors, 58, 129�135. https://doi.org/10.1016/j.addbeh.2016.02.030"></attvalue>
-          <attvalue for="pub3" value="Stahler, G. J., &amp; Mennis, J. (2018). Treatment outcome disparities for opioid users: Are there racial and ethnic differences in treatment completion across large US metropolitan areas? Drug and Alcohol Dependence, 190(July), 170�178. https://doi.org/10.1016/j.drugalcdep.2018.06.006"></attvalue>
+          <attvalue for="pub2" value="Stahler, G. J., Mennis, J., &amp; DuCette, J. P. (2016). Residential and outpatient treatment completion for substance use disorders in the U.S.: Moderation analysis by demographics and drug of choice. Addictive Behaviors, 58, 129-135. https://doi.org/10.1016/j.addbeh.2016.02.030"></attvalue>
+          <attvalue for="pub3" value="Stahler, G. J., &amp; Mennis, J. (2018). Treatment outcome disparities for opioid users: Are there racial and ethnic differences in treatment completion across large US metropolitan areas? Drug and Alcohol Dependence, 190(July), 170-178. https://doi.org/10.1016/j.drugalcdep.2018.06.006"></attvalue>
         </attvalues>
         <viz:size value="100.0"></viz:size>
         <viz:position x="458.65576" y="-436.07538"></viz:position>
@@ -191,14 +191,14 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national dataset of enrollments, completions and completers, graduation rates, faculty and staff, finances, institutional prices, student financial aid, admissions, and academic libraries as required to disclose by the Higher Education Act of 1965 from every college, university, and technical/vocational institution that participations in the federal student financial aid programs."></attvalue>
-          <attvalue for="cat" value="Employment"></attvalue>
+          <attvalue for="category" value="Employment"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
-          <attvalue for="start" value="1986"></attvalue>
+          <attvalue for="begin" value="1986"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
           <attvalue for="weight" value="3"></attvalue>
           <attvalue for="data source" value="https://nces.ed.gov/ipeds/;"></attvalue>
           <attvalue for="data dictionary" value=""></attvalue>
-          <attvalue for="pub1" value="Aikins, R., Zhang, X., &amp; McCabe, S. E. (2017). Academic Doping: Institutional Policies Regarding Nonmedical use of Prescription Stimulants in U.S. Higher Education. Journal of Academic Ethics, 15(3), 229�243. https://doi.org/10.1007/s10805-017-9291-0"></attvalue>
+          <attvalue for="pub1" value="Aikins, R., Zhang, X., &amp; McCabe, S. E. (2017). Academic Doping: Institutional Policies Regarding Nonmedical use of Prescription Stimulants in U.S. Higher Education. Journal of Academic Ethics, 15(3), 229-243. https://doi.org/10.1007/s10805-017-9291-0"></attvalue>
         </attvalues>
         <viz:size value="100.0"></viz:size>
         <viz:position x="382.71027" y="597.1388"></viz:position>
@@ -208,15 +208,15 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national database of annual statistics for businesses with paid employees within the U.S. and U.S. terriroties, taken from the Business Register. Data includes the number of establishments, employment during the week of March 12, first quarter payroll, and annual payroll."></attvalue>
-          <attvalue for="cat" value="Employment"></attvalue>
+          <attvalue for="category" value="Employment"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
-          <attvalue for="start" value="1986"></attvalue>
+          <attvalue for="begin" value="1986"></attvalue>
           <attvalue for="end" value="2017"></attvalue>
           <attvalue for="weight" value="3"></attvalue>
           <attvalue for="data source" value="https://www.census.gov/programs-surveys/cbp/data/datasets.html;"></attvalue>
           <attvalue for="data dictionary" value="https://www2.census.gov/programs-surveys/cbp/technical-documentation/records-layouts/2017_record_layouts/county_layout_2017.txt"></attvalue>
-          <attvalue for="pub1" value="Pierce, J. R., &amp; Schott, P. K. (2020). Trade Liberalization and Mortality: Evidence from US Counties. American Economic Review: Insights, 2(1), 47�64. https://doi.org/10.1257/aeri.20180396"></attvalue>
-          <attvalue for="pub2" value="Bondurant, S. R., Lindo, J. M., &amp; Swensen, I. D. (2018). Substance abuse treatment centers and local crime. Journal of Urban Economics, 104, 124�133. https://doi.org/10.1016/j.jue.2018.01.007"></attvalue>
+          <attvalue for="pub1" value="Pierce, J. R., &amp; Schott, P. K. (2020). Trade Liberalization and Mortality: Evidence from US Counties. American Economic Review: Insights, 2(1), 47-64. https://doi.org/10.1257/aeri.20180396"></attvalue>
+          <attvalue for="pub2" value="Bondurant, S. R., Lindo, J. M., &amp; Swensen, I. D. (2018). Substance abuse treatment centers and local crime. Journal of Urban Economics, 104, 124-133. https://doi.org/10.1016/j.jue.2018.01.007"></attvalue>
           <attvalue for="pub3" value="Dave, D., Deza, M., &amp; Horn, B. P. (2018). Prescription Drug Monitoring Programs, Opioid Abuse, and Crime. https://doi.org/10.3386/w24975"></attvalue>
         </attvalues>
         <viz:size value="100.0"></viz:size>
@@ -227,9 +227,9 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A monthly national survey sent to a sample of people across the U.S. that asks questions about education, employment, internet access, transportation, etc."></attvalue>
-          <attvalue for="cat" value="Employment"></attvalue>
+          <attvalue for="category" value="Employment"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
-          <attvalue for="start" value="2005"></attvalue>
+          <attvalue for="begin" value="2005"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
           <attvalue for="weight" value="3"></attvalue>
           <attvalue for="data source" value="https://www.census.gov/programs-surveys/acs/data.html;"></attvalue>
@@ -246,9 +246,9 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national disclosure program provides detailed information on financial relationships including consulting fees, research grants, travel reimbursements, ownership, and other direct payments from manufacturers to medical practitioners (physicians and teaching hospitals)."></attvalue>
-          <attvalue for="cat" value="Pharmaceutical"></attvalue>
+          <attvalue for="category" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
-          <attvalue for="start" value="2013"></attvalue>
+          <attvalue for="begin" value="2013"></attvalue>
           <attvalue for="end" value="2019"></attvalue>
           <attvalue for="weight" value="3"></attvalue>
           <attvalue for="data source" value="https://www.cms.gov/OpenPayments;"></attvalue>
@@ -264,13 +264,13 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national dataset reported by states for covered outpatient drugs that are paid for by state Medicaid agencies since the start of the Medicaid Drug Rebate Program. The data includes state, drug name, National Drug Code, number of prescriptions, and dollars reimbursed."></attvalue>
-          <attvalue for="cat" value="Pharmaceutical"></attvalue>
+          <attvalue for="category" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
-          <attvalue for="start" value="1991"></attvalue>
+          <attvalue for="begin" value="1991"></attvalue>
           <attvalue for="end" value="2019"></attvalue>
           <attvalue for="weight" value="3"></attvalue>
           <attvalue for="data source" value="https://data.medicaid.gov/State-Drug-Utilization/State-Drug-Utilization-Data-1991/cnf4-jwwr"></attvalue>
-          <attvalue for="pub1" value="Abouk, R., Pacula, R. L., &amp; Powell, D. (2019). Association between State Laws Facilitating Pharmacy Distribution of Naloxone and Risk of Fatal Overdose. JAMA Internal Medicine, 179(6), 805�811. https://doi.org/10.1001/jamainternmed.2019.0272"></attvalue>
+          <attvalue for="pub1" value="Abouk, R., Pacula, R. L., &amp; Powell, D. (2019). Association between State Laws Facilitating Pharmacy Distribution of Naloxone and Risk of Fatal Overdose. JAMA Internal Medicine, 179(6), 805-811. https://doi.org/10.1001/jamainternmed.2019.0272"></attvalue>
         </attvalues>
         <viz:size value="100.0"></viz:size>
         <viz:position x="-462.53668" y="627.4966"></viz:position>
@@ -280,9 +280,9 @@
         <attvalues>
           <attvalue for="size" value="2"></attvalue>
           <attvalue for="description" value="A national database of all transactions covered by the Medicare prescription drug plan for both Prescription Drug Plans (PDPs) and Medicare Advantage Prescription Drug Plans (MA-PDs). Variables include service date, produce service ID, quantity dispensed, days supply, cost, payment, and linkage variables."></attvalue>
-          <attvalue for="cat" value="Pharmaceutical"></attvalue>
+          <attvalue for="category" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="M"></attvalue>
-          <attvalue for="start" value="2006"></attvalue>
+          <attvalue for="begin" value="2006"></attvalue>
           <attvalue for="end" value="2017"></attvalue>
           <attvalue for="weight" value="2"></attvalue>
           <attvalue for="data source" value="https://data.medicare.gov/;"></attvalue>
@@ -298,9 +298,9 @@
         <attvalues>
           <attvalue for="size" value="2"></attvalue>
           <attvalue for="description" value="An automated, comprehaensive drug reporting system which monitors the flow of DEA controlled substances from their point of manufacture through commercial distribution channels to point of sale or distribution of the dispensing/retail level."></attvalue>
-          <attvalue for="cat" value="Pharmaceutical"></attvalue>
+          <attvalue for="category" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="M"></attvalue>
-          <attvalue for="start" value="2006"></attvalue>
+          <attvalue for="begin" value="2006"></attvalue>
           <attvalue for="end" value="2019"></attvalue>
           <attvalue for="weight" value="2"></attvalue>
           <attvalue for="data source" value="https://www.deadiversion.usdoj.gov/arcos/retail_drug_summary/"></attvalue>
@@ -317,9 +317,9 @@
         <attvalues>
           <attvalue for="size" value="1"></attvalue>
           <attvalue for="description" value="The source for all prescribing data comes from IQVIA Xponent, which is based on a sample of approximately 49,900 retail (non-hospital) pharmacies, which dispense nearly 92% of all retail prescriptions in the U.S. This database does not include mail order prescriptions."></attvalue>
-          <attvalue for="cat" value="Pharmaceutical"></attvalue>
+          <attvalue for="category" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="S"></attvalue>
-          <attvalue for="start" value="2006"></attvalue>
+          <attvalue for="begin" value="2006"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
           <attvalue for="weight" value="1"></attvalue>
           <attvalue for="data source" value="https://wonder.cdc.gov/"></attvalue>
@@ -336,15 +336,15 @@
         <attvalues>
           <attvalue for="size" value="1"></attvalue>
           <attvalue for="description" value="NAMSDL, originally President's Commission on Model State Drug Laws, was established to create model codes of laws to help states effectively address alcohol and other drug abuse. Topics include prevention and intervention, treatment, recovery support, overdose abatement, criminal justice, alcohol, and PDMPs."></attvalue>
-          <attvalue for="cat" value="Policy"></attvalue>
+          <attvalue for="category" value="Policy"></attvalue>
           <attvalue for="size (s/m/l)" value="S"></attvalue>
-          <attvalue for="start" value="1993"></attvalue>
+          <attvalue for="begin" value="1993"></attvalue>
           <attvalue for="end" value="2019"></attvalue>
           <attvalue for="weight" value="1"></attvalue>
           <attvalue for="data source" value="https://namsdl.org/"></attvalue>
           <attvalue for="pub1" value="Mallatt, J. (2019). Unintended Consequences of Prescription Monitoring: Policy-Induced Substitution to Illicit Drugs. Rochester, NY. Retrieved from https://papers.ssrn.com/abstract=3418615"></attvalue>
           <attvalue for="pub2" value="Horwitz, J., Davis, C. S., McClelland, L. S., Fordon, R. S., &amp; Meara, E. (2018). The Problem of Data Quality in Analyses of Opioid Regulation: The Case of Prescription Drug Monitoring Programs. https://doi.org/10.3386/w24947"></attvalue>
-          <attvalue for="pub3" value="Meinhofer, A. (2018). Prescription Drug Monitoring Programs: The Role of Asymmetric Information on Drug Availability and Abuse. American Journal of Health Economics, 4(4), 504�526."></attvalue>
+          <attvalue for="pub3" value="Meinhofer, A. (2018). Prescription Drug Monitoring Programs: The Role of Asymmetric Information on Drug Availability and Abuse. American Journal of Health Economics, 4(4), 504-526."></attvalue>
         </attvalues>
         <viz:size value="50.0"></viz:size>
         <viz:position x="-584.8573" y="-266.3338"></viz:position>
@@ -354,14 +354,14 @@
         <attvalues>
           <attvalue for="size" value="1"></attvalue>
           <attvalue for="description" value="A national database that tracks key state laws related to prescription drug abuse. Topic areas include criminal justice, expanded access to naloxone, good samaritan 911 immunity, medical marijuana, opioid related controls, and PDMP."></attvalue>
-          <attvalue for="cat" value="Policy"></attvalue>
+          <attvalue for="category" value="Policy"></attvalue>
           <attvalue for="size (s/m/l)" value="S"></attvalue>
-          <attvalue for="start" value="2001"></attvalue>
+          <attvalue for="begin" value="2001"></attvalue>
           <attvalue for="end" value="2017"></attvalue>
           <attvalue for="weight" value="1"></attvalue>
           <attvalue for="data source" value="http://pdaps.org/"></attvalue>
-          <attvalue for="pub1" value="Chan, N. W., Burkhardt, J., &amp; Flyr, M. (2020). The Effects of Recreational Marijuana Legalization and Dispensing on Opioid Mortality. Economic Inquiry, 58(2), 589�606. https://doi.org/10.1111/ecin.12819"></attvalue>
-          <attvalue for="pub2" value="Kravitz-Wirtz, N., Davis, C. S., Ponicki, W. R., Rivera-Aguirre, A., Marshall, B. D. L., Martins, S. S., &amp; Cerd�, M. (2020). Association of Medicaid Expansion With Opioid Overdose Mortality in the United States. JAMA Network Open, 3(1), e1919066. https://doi.org/10.1001/jamanetworkopen.2019.19066"></attvalue>
+          <attvalue for="pub1" value="Chan, N. W., Burkhardt, J., &amp; Flyr, M. (2020). The Effects of Recreational Marijuana Legalization and Dispensing on Opioid Mortality. Economic Inquiry, 58(2), 589-606. https://doi.org/10.1111/ecin.12819"></attvalue>
+          <attvalue for="pub2" value="Kravitz-Wirtz, N., Davis, C. S., Ponicki, W. R., Rivera-Aguirre, A., Marshall, B. D. L., Martins, S. S., &amp; Cerd-, M. (2020). Association of Medicaid Expansion With Opioid Overdose Mortality in the United States. JAMA Network Open, 3(1), e1919066. https://doi.org/10.1001/jamanetworkopen.2019.19066"></attvalue>
           <attvalue for="pub3" value="Abouk, R., Helmchen, L. A., Moghtaderi, A., &amp; Pines, J. (2019). The ACA Medicaid Expansions and Opioid Mortality: Is There a Link? Rochester, NY. Retrieved from https://papers.ssrn.com/abstract=3368434"></attvalue>
         </attvalues>
         <viz:size value="50.0"></viz:size>
@@ -372,15 +372,15 @@
         <attvalues>
           <attvalue for="size" value="1"></attvalue>
           <attvalue for="description" value="An electronic database that tracks controlled substance prescriptions in a state in real time. Not every state has a PDMP and what information practitioners and pharmacists are required to include differ by state. The Kentucky All Schedule Prescription Electronic Reporting system, or KASPER, represents one standard of these data systems."></attvalue>
-          <attvalue for="cat" value="Pharmaceutical"></attvalue>
+          <attvalue for="category" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="S"></attvalue>
-          <attvalue for="start" value="2007"></attvalue>
+          <attvalue for="begin" value="2007"></attvalue>
           <attvalue for="end" value="2020"></attvalue>
           <attvalue for="weight" value="1"></attvalue>
           <attvalue for="data source" value="https://www.cdc.gov/drugoverdose/pdmp/states.html"></attvalue>
           <attvalue for="pub1" value="Ziedan, E., &amp; Kaestner, R. (2020). Effect of Prescription Opioids and Prescription Opioid Control Policies on Infant Health. National Bureau of Economic Research Working Paper Series, (26749). https://doi.org/10.3386/w26749"></attvalue>
           <attvalue for="pub2" value="Wang, L. X. (2020). The Complementarity of Drug Monitoring Programs and Health IT for Reducing Opioid-Related Mortality and Morbidity. Rochester, NY. Retrieved from https://papers.ssrn.com/abstract=3176809"></attvalue>
-          <attvalue for="pub3" value="Brown, E., &amp; Wehby, G. L. (2019). Economic Conditions and Drug and Opioid Overdose Deaths. Medical Care Research and Review: MCRR, 76(4), 462�477. https://doi.org/10.1177/1077558717722592"></attvalue>
+          <attvalue for="pub3" value="Brown, E., &amp; Wehby, G. L. (2019). Economic Conditions and Drug and Opioid Overdose Deaths. Medical Care Research and Review: MCRR, 76(4), 462-477. https://doi.org/10.1177/1077558717722592"></attvalue>
         </attvalues>
         <viz:size value="50.0"></viz:size>
         <viz:position x="-719.11896" y="292.1943"></viz:position>
