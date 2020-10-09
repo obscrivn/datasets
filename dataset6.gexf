@@ -8,9 +8,9 @@
     <attributes class="node" mode="static">
       <attribute id="size" title="Size" type="integer"></attribute>
       <attribute id="description" title="Description" type="string"></attribute>
-      <attribute id="cat" title="cat" type="string"></attribute>
+      <attribute id="cat" title="category" type="string"></attribute>
       <attribute id="size (s/m/l)" title="size (s/m/l)" type="string"></attribute>
-      <attribute id="start" title="start" type="string"></attribute>
+      <attribute id="start" title="begin" type="string"></attribute>
       <attribute id="end" title="end" type="string"></attribute>
       <attribute id="weight" title="weight" type="string"></attribute>
       <attribute id="data source" title="Data Source" type="string"></attribute>
@@ -27,7 +27,7 @@
         <attvalues>
           <attvalue for="size" value="1"></attvalue>
           <attvalue for="description" value="A dataset of drug poisoning deaths at the national, state, and county levels as reported by mortality medical coders, nosologists, and other individuals responsible for processing vital records."></attvalue>
-          <attvalue for="cat" value="Harms"></attvalue>
+          <attvalue for="cat" value="Direct-Indirect Harms"></attvalue>
           <attvalue for="size (s/m/l)" value="S"></attvalue>
           <attvalue for="start" value="1999"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
@@ -45,7 +45,7 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national data system of annual admissions to substance abuse treatment facilities because substance abuse treatment programs are required by state laws to report their publically-funded admissions to the state. Some states also collect privately-funded admissions from facilities that receive public funding."></attvalue>
-          <attvalue for="cat" value="Harms"></attvalue>
+          <attvalue for="cat" value="Direct-Indirect Harms"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
           <attvalue for="start" value="1992"></attvalue>
           <attvalue for="end" value="2017"></attvalue>
@@ -64,7 +64,7 @@
         <attvalues>
           <attvalue for="size" value="1"></attvalue>
           <attvalue for="description" value="A nationally representative survey of U.S. adults (age 18+) involving alcohol questions and repeated at approximately 5-year intervals since the 1960s."></attvalue>
-          <attvalue for="cat" value="Harms"></attvalue>
+          <attvalue for="cat" value="Direct-Indirect Harms"></attvalue>
           <attvalue for="size (s/m/l)" value="S"></attvalue>
           <attvalue for="start" value="1979"></attvalue>
           <attvalue for="end" value="2015"></attvalue>
@@ -81,7 +81,7 @@
         <attvalues>
           <attvalue for="size" value="2"></attvalue>
           <attvalue for="description" value="A yearly national survey since 1971 about tobacco, alcohol, and drug use, mental health, and other health-related issues."></attvalue>
-          <attvalue for="cat" value="Harms"></attvalue>
+          <attvalue for="cat" value="Direct-Indirect Harms"></attvalue>
           <attvalue for="size (s/m/l)" value="M"></attvalue>
           <attvalue for="start" value="1971"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
@@ -100,7 +100,7 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national dataset of the number of cases involving human or animal poisioning or exposure to poision as reported by poison centers in the U.S."></attvalue>
-          <attvalue for="cat" value="Harms"></attvalue>
+          <attvalue for="cat" value="Direct-Indirect Harms"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
           <attvalue for="start" value="2011"></attvalue>
           <attvalue for="end" value="2019"></attvalue>
@@ -118,7 +118,7 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national survey of families and individuals, their medical providers, and employers across the U.S. with questions about specific health services, frequency of use of health services, cost of health services, how the health services are pair for, and the cost, scope, and breadth of health insurance held by and available to U.S. workers."></attvalue>
-          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="cat" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
           <attvalue for="start" value="1996"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
@@ -136,7 +136,7 @@
         <attvalues>
           <attvalue for="size" value="2"></attvalue>
           <attvalue for="description" value="An annual census of all treatment facilities listed on the I-BHS, an electronic master list of all organized substance abuse treatment faciliies known to the SAMHSA. Information on location, organization, structure, services, and utilization of substance abuse treatment facilities in the U.S. is collected."></attvalue>
-          <attvalue for="cat" value="Jobs"></attvalue>
+          <attvalue for="cat" value="Employment"></attvalue>
           <attvalue for="size (s/m/l)" value="M"></attvalue>
           <attvalue for="start" value="1997"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
@@ -155,7 +155,7 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="Quarterly count of employment and wages reported by employers covering more than 95% of U.S. jobs available at the county, Metropolitan Statistical Area, state and national levels by detailed industry."></attvalue>
-          <attvalue for="cat" value="Jobs"></attvalue>
+          <attvalue for="cat" value="Employment"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
           <attvalue for="start" value="1975"></attvalue>
           <attvalue for="end" value="2019"></attvalue>
@@ -172,7 +172,7 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national data system of annual number and characteristics of person discharged from public and private substance abuse treatment programs that receive public funding, as reported by law to state substance abuse agencies by the treatment programs."></attvalue>
-          <attvalue for="cat" value="Harms"></attvalue>
+          <attvalue for="cat" value="Direct-Indirect Harms"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
           <attvalue for="start" value="2006"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
@@ -191,7 +191,7 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national dataset of enrollments, completions and completers, graduation rates, faculty and staff, finances, institutional prices, student financial aid, admissions, and academic libraries as required to disclose by the Higher Education Act of 1965 from every college, university, and technical/vocational institution that participations in the federal student financial aid programs."></attvalue>
-          <attvalue for="cat" value="Jobs"></attvalue>
+          <attvalue for="cat" value="Employment"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
           <attvalue for="start" value="1986"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
@@ -208,7 +208,7 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national database of annual statistics for businesses with paid employees within the U.S. and U.S. terriroties, taken from the Business Register. Data includes the number of establishments, employment during the week of March 12, first quarter payroll, and annual payroll."></attvalue>
-          <attvalue for="cat" value="Jobs"></attvalue>
+          <attvalue for="cat" value="Employment"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
           <attvalue for="start" value="1986"></attvalue>
           <attvalue for="end" value="2017"></attvalue>
@@ -227,7 +227,7 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A monthly national survey sent to a sample of people across the U.S. that asks questions about education, employment, internet access, transportation, etc."></attvalue>
-          <attvalue for="cat" value="Jobs"></attvalue>
+          <attvalue for="cat" value="Employment"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
           <attvalue for="start" value="2005"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
@@ -246,7 +246,7 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national disclosure program provides detailed information on financial relationships including consulting fees, research grants, travel reimbursements, ownership, and other direct payments from manufacturers to medical practitioners (physicians and teaching hospitals)."></attvalue>
-          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="cat" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
           <attvalue for="start" value="2013"></attvalue>
           <attvalue for="end" value="2019"></attvalue>
@@ -264,7 +264,7 @@
         <attvalues>
           <attvalue for="size" value="3"></attvalue>
           <attvalue for="description" value="A national dataset reported by states for covered outpatient drugs that are paid for by state Medicaid agencies since the start of the Medicaid Drug Rebate Program. The data includes state, drug name, National Drug Code, number of prescriptions, and dollars reimbursed."></attvalue>
-          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="cat" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="L"></attvalue>
           <attvalue for="start" value="1991"></attvalue>
           <attvalue for="end" value="2019"></attvalue>
@@ -280,7 +280,7 @@
         <attvalues>
           <attvalue for="size" value="2"></attvalue>
           <attvalue for="description" value="A national database of all transactions covered by the Medicare prescription drug plan for both Prescription Drug Plans (PDPs) and Medicare Advantage Prescription Drug Plans (MA-PDs). Variables include service date, produce service ID, quantity dispensed, days supply, cost, payment, and linkage variables."></attvalue>
-          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="cat" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="M"></attvalue>
           <attvalue for="start" value="2006"></attvalue>
           <attvalue for="end" value="2017"></attvalue>
@@ -298,7 +298,7 @@
         <attvalues>
           <attvalue for="size" value="2"></attvalue>
           <attvalue for="description" value="An automated, comprehaensive drug reporting system which monitors the flow of DEA controlled substances from their point of manufacture through commercial distribution channels to point of sale or distribution of the dispensing/retail level."></attvalue>
-          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="cat" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="M"></attvalue>
           <attvalue for="start" value="2006"></attvalue>
           <attvalue for="end" value="2019"></attvalue>
@@ -307,7 +307,7 @@
           <attvalue for="data dictionary" value="https://www.deadiversion.usdoj.gov/arcos/index.html#background"></attvalue>
           <attvalue for="pub1" value="US Department of Justice, Drug Enforcement Administration, Division of Diversion Control. 2019. ARCOS retail drug summary report. Available at https://www. deadiversion.usdoj.gov/ arcos/ retail_drug_summary/index.html (accessed on 6 October 2019)"></attvalue>
           <attvalue for="pub2" value="Buchmueller, T. C., Carey, C. M., &amp; Meille, G. (2019). How Well Do Doctors Know Their Patients? Evidence from a Mandatory Access Prescription Drug Monitoring Program. https://doi.org/10.3386/w26159"></attvalue>
-          <attvalue for="pub3" value="D�Lima, W., &amp; Thibodeau, M. (2019). Health Crisis and Housing Market Effects - Evidence from the U.S. Opioid Epidemic. SSRN, (ID 3456404). Retrieved from https://papers.ssrn.com/abstract=3456404"></attvalue>
+          <attvalue for="pub3" value="D'Lima, W., &amp; Thibodeau, M. (2019). Health Crisis and Housing Market Effects - Evidence from the U.S. Opioid Epidemic. SSRN, (ID 3456404). Retrieved from https://papers.ssrn.com/abstract=3456404"></attvalue>
         </attvalues>
         <viz:size value="75.0"></viz:size>
         <viz:position x="-617.4022" y="128.46457"></viz:position>
@@ -317,7 +317,7 @@
         <attvalues>
           <attvalue for="size" value="1"></attvalue>
           <attvalue for="description" value="The source for all prescribing data comes from IQVIA Xponent, which is based on a sample of approximately 49,900 retail (non-hospital) pharmacies, which dispense nearly 92% of all retail prescriptions in the U.S. This database does not include mail order prescriptions."></attvalue>
-          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="cat" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="S"></attvalue>
           <attvalue for="start" value="2006"></attvalue>
           <attvalue for="end" value="2018"></attvalue>
@@ -372,7 +372,7 @@
         <attvalues>
           <attvalue for="size" value="1"></attvalue>
           <attvalue for="description" value="An electronic database that tracks controlled substance prescriptions in a state in real time. Not every state has a PDMP and what information practitioners and pharmacists are required to include differ by state. The Kentucky All Schedule Prescription Electronic Reporting system, or KASPER, represents one standard of these data systems."></attvalue>
-          <attvalue for="cat" value="Pharma"></attvalue>
+          <attvalue for="cat" value="Pharmaceutical"></attvalue>
           <attvalue for="size (s/m/l)" value="S"></attvalue>
           <attvalue for="start" value="2007"></attvalue>
           <attvalue for="end" value="2020"></attvalue>
