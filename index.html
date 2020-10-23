@@ -21,7 +21,11 @@
     <body>
         <div id="zonecentre" class="gradient">
             <canvas id="carte" width="0" height="0"></canvas>
+			<ul id="ctlzoom2">
+			<li><div id="zoomPlusButton2"></div></li>
+			</ul>
             <ul id="ctlzoom">
+				
                 <li>
                     <a href="#" id="zoomPlusButton" title="S'approcher"> </a>
                 </li>
@@ -48,15 +52,18 @@
             </div>
             <div id="leftcontent"></div>
         </div>
-        <div id="titlebar">
+        <div id="titlebar"><img src="../../../../../../../../Desktop/legend.png" width="200" height="125" alt=""/>
             <div id="maintitle">
               <h3>Public Data Resources Used in Studying Opioid Crisis</h3>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>Click on the Node (Circle) to view the data source information. </p>
             </div>
             <form id="recherche">
                 <input id="searchinput" class="grey" autocomplete="off" />
                 <input id="searchsubmit" type="submit" />
             </form>
-			<h4> Click on the Node to view the datasource information.</</h4>
+			<h4>&nbsp;</h4>
         </div>
         <ul id="autocomplete">
         </ul>
