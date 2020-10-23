@@ -65,6 +65,17 @@ line-height: 14px, height: 14px;
     width: 320px;
 }
 
+#searchinput2 {
+    background: #fff url("../img/search.gif") no-repeat right;
+    border: 1px solid #DDD;
+    font-size: 14px; line-height: 14px, height: 14px;
+    left: 250px;
+    padding: 1px 4px; margin: 0;
+    position: absolute;
+    top: 10px;
+    width: 320px;
+}
+
 #searchinput:focus, #searchinput:active {
     border-color:#aaa;
 }
@@ -88,10 +99,15 @@ line-height: 14px, height: 14px;
     position: absolute; left: 0px;
 }
 
-
+#zoomPlusButton2 {
+	background: #fff url("../img/plusmoins.png") no-repeat right;
+    background-position: 0 24px;
+}
 /* ZOOM IN OUT */
 
-
+#ctlzoom2 {
+    position: absolute; left: 15px; bottom: 15px; list-style: none; padding: 0; margin: 0;
+}
 
 #ctlzoom {
     position: absolute;
@@ -187,10 +203,10 @@ line-height: 14px, height: 14px;
 
 #leftcolumn {
     position: absolute;
-    top: 45px;
+    top: 79px;
     bottom: 0px;
-    left: -65px;
-    width: 82px;
+    left: -205px;
+    width: 281px;
     background-color: rgb(250, 250, 252);
     box-shadow: 2px 0 2px #808090;
     padding: 0;
@@ -228,8 +244,8 @@ line-height: 14px, height: 14px;
 
 #leftcontent {
     position: absolute;
-    left: -57px;
-    top: 0px;
+    left: 3px;
+    top: 4px;
     bottom: 0;
     right: 0;
     overflow: auto;
@@ -237,7 +253,7 @@ line-height: 14px, height: 14px;
     margin: 0;
     padding: 0;
     border-top: 1px solid #cccccc;
-    width: 397px;
+    width: 278px;
 }
 
 div.largepill {

@@ -21,6 +21,9 @@
     <body>
         <div id="zonecentre" class="gradient">
             <canvas id="carte" width="0" height="0"></canvas>
+			<ul id="ctlzoom2">
+			<li><div id="zoomPlusButton2"></div></li>
+			</ul>
             <ul id="ctlzoom">
 				
                 <li>
@@ -47,15 +50,18 @@
             <div id="unfold">
                 <a href="#" id="aUnfold" class="rightarrow"> </a>
             </div>
-            
-        </div>
+            <div id="leftcontent"></div>
+    </div>
         <div id="titlebar"><img src="img/legend.png" width="200" height="125" alt=""/>
             <div id="maintitle">
               <h3>Public Data Resources Used in Studying Opioid Crisis</h3>
               <p>&nbsp;</p>
               <p>Double-click on the Node (Circle) to view the data source information.</p>
               <p style="font-size:12px;">The lines represent dimensions of similarity between data sources. </p>
-            </div>
+              <p>&nbsp;</p>
+              <p>Click on the Node (Circle) to view the data source information. </p>
+
+          </div>
             <form id="recherche">
                 <input id="searchinput" class="grey" autocomplete="off" />
                 <input id="searchsubmit" type="submit" />
