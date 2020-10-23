@@ -16,7 +16,7 @@ GexfJS.setParams({
         /*
             Default state of the "use lens" button. Set to null to disable button.
         */
-    zoomLevel : -0.5,
+    zoomLevel : -1,
         /*
             Default zoom level. At zoom = 0, the graph should fill a 800x700px zone
          */
