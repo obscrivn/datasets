@@ -1,0 +1,178 @@
+﻿Source,Target,Type,Id,Label,Weight,Relation Type
+0,1,Undirected,0,State,1,Geo Unit
+0,2,Undirected,1,State,1,Geo Unit
+0,3,undirected,2,State,1,Geo Unit
+0,4,undirected,3,State,1,Geo Unit
+0,6,undirected,4,State,1,Geo Unit
+0,7,Undirected,5,State,1,Geo Unit
+0,8,undirected,6,State,1,Geo Unit
+0,9,undirected,7,State,1,Geo Unit
+0,10,undirected,8,State,1,Geo Unit
+0,11,undirected,9,State,1,Geo Unit
+0,12,undirected,10,State,1,Geo Unit
+0,13,undirected,11,State,1,Geo Unit
+0,14,undirected,12,State,1,Geo Unit
+0,15,undirected,13,State,1,Geo Unit
+0,16,undirected,14,State,1,Geo Unit
+0,17,undirected,15,State,1,Geo Unit
+0,18,undirected,16,State,1,Geo Unit
+1,2,Undirected,17,State,1,Geo Unit
+1,3,undirected,18,State,1,Geo Unit
+1,4,undirected,19,State,1,Geo Unit
+1,6,undirected,20,State,1,Geo Unit
+1,7,Undirected,21,State,1,Geo Unit
+1,8,undirected,22,State,1,Geo Unit
+1,9,undirected,23,State,1,Geo Unit
+1,10,undirected,24,State,1,Geo Unit
+1,11,undirected,25,State,1,Geo Unit
+1,12,undirected,26,State,1,Geo Unit
+1,13,undirected,27,State,1,Geo Unit
+1,14,undirected,28,State,1,Geo Unit
+1,15,undirected,29,State,1,Geo Unit
+1,16,undirected,30,State,1,Geo Unit
+1,17,undirected,31,State,1,Geo Unit
+1,18,undirected,32,State,1,Geo Unit
+2,3,undirected,33,State,1,Geo Unit
+2,4,undirected,34,State,1,Geo Unit
+2,6,undirected,35,State,1,Geo Unit
+2,7,Undirected,36,State,1,Geo Unit
+2,8,undirected,37,State,1,Geo Unit
+2,9,undirected,38,State,1,Geo Unit
+2,10,undirected,39,State,1,Geo Unit
+2,11,undirected,40,State,1,Geo Unit
+2,12,undirected,41,State,1,Geo Unit
+2,13,undirected,42,State,1,Geo Unit
+2,14,undirected,43,State,1,Geo Unit
+2,15,undirected,44,State,1,Geo Unit
+2,16,undirected,45,State,1,Geo Unit
+2,17,undirected,46,State,1,Geo Unit
+2,18,undirected,47,State,1,Geo Unit
+3,4,undirected,48,State,1,Geo Unit
+3,6,undirected,49,State,1,Geo Unit
+3,7,Undirected,50,"State, County",2,Geo Unit
+3,8,undirected,51,State,1,Geo Unit
+3,9,undirected,52,"State, County",2,Geo Unit
+3,10,undirected,53,"State, County",2,Geo Unit
+3,11,undirected,54,"State, County",2,Geo Unit
+3,12,undirected,55,State,1,Geo Unit
+3,13,undirected,56,State,1,Geo Unit
+3,14,undirected,57,State,1,Geo Unit
+3,15,undirected,58,"State, County",2,Geo Unit
+3,16,undirected,59,"State, County",2,Geo Unit
+3,17,undirected,60,State,1,Geo Unit
+3,18,undirected,61,State,1,Geo Unit
+4,6,undirected,62,State,1,Geo Unit
+4,7,Undirected,63,State,1,Geo Unit
+4,8,undirected,64,State,1,Geo Unit
+4,9,undirected,65,State,1,Geo Unit
+4,10,undirected,66,State,1,Geo Unit
+4,11,undirected,67,State,1,Geo Unit
+4,12,undirected,68,"State, Drug Name",2,Crosswalk and Geo Unit
+4,13,undirected,69,"State, Drug Name",2,Crosswalk and Geo Unit
+4,14,undirected,70,"State, Drug Name",2,Crosswalk and Geo Unit
+4,15,undirected,71,"State, Drug Name",2,Crosswalk and Geo Unit
+4,16,undirected,72,"State, Drug Name",2,Crosswalk and Geo Unit
+4,17,undirected,73,State,1,Geo Unit
+4,18,undirected,74,State,1,Geo Unit
+6,7,Undirected,75,"State, NAICS",2,Crosswalk and Geo Unit
+6,8,undirected,76,State,1,Geo Unit
+6,9,undirected,77,State,1,Geo Unit
+6,10,undirected,78,"State, NAICS",2,Crosswalk and Geo Unit
+6,11,undirected,79,State,1,Geo Unit
+6,12,undirected,80,State,1,Geo Unit
+6,13,undirected,81,State,1,Geo Unit
+6,14,undirected,82,State,1,Geo Unit
+6,15,undirected,83,State,1,Geo Unit
+6,16,undirected,84,State,1,Geo Unit
+6,17,undirected,85,State,1,Geo Unit
+6,18,undirected,86,State,1,Geo Unit
+7,8,undirected,87,State,1,Geo Unit
+7,9,undirected,88,"State, County",2,Geo Unit
+7,10,undirected,89,"State, County",3,Crosswalk and Geo Unit
+7,11,undirected,90,"State, County",2,Geo Unit
+7,12,undirected,91,State,1,Geo Unit
+7,13,undirected,92,State,1,Geo Unit
+7,14,undirected,93,State,1,Geo Unit
+7,15,undirected,94,"State, County",2,Geo Unit
+7,16,undirected,95,"State, County",2,Geo Unit
+7,17,undirected,96,State,1,Geo Unit
+7,18,undirected,97,State,1,Geo Unit
+8,9,undirected,98,State,1,Geo Unit
+8,10,undirected,99,State,1,Geo Unit
+8,11,undirected,100,State,1,Geo Unit
+8,12,undirected,101,State,1,Geo Unit
+8,13,undirected,102,State,1,Geo Unit
+8,14,undirected,103,State,1,Geo Unit
+8,15,undirected,104,State,1,Geo Unit
+8,16,undirected,105,State,1,Geo Unit
+8,17,undirected,106,State,1,Geo Unit
+8,18,undirected,107,State,1,Geo Unit
+9,10,undirected,108,"State, County",2,Geo Unit
+9,11,undirected,109,"State, County",2,Geo Unit
+9,12,undirected,110,State,1,Geo Unit
+9,13,undirected,111,State,1,Geo Unit
+9,14,undirected,112,State,1,Geo Unit
+9,15,undirected,113,"State, County",2,Geo Unit
+9,16,undirected,114,"State, County",2,Geo Unit
+9,17,undirected,115,State,1,Geo Unit
+9,18,undirected,116,State,1,Geo Unit
+10,11,undirected,117,"State, County",2,Geo Unit
+10,12,undirected,118,State,1,Geo Unit
+10,13,undirected,119,State,1,Geo Unit
+10,14,undirected,120,State,1,Geo Unit
+10,15,undirected,121,"State, County",2,Geo Unit
+10,16,undirected,122,"State, County",2,Geo Unit
+10,17,undirected,123,State,1,Geo Unit
+10,18,undirected,124,State,1,Geo Unit
+11,12,undirected,125,State,1,Geo Unit
+11,13,undirected,126,State,1,Geo Unit
+11,14,undirected,127,State,1,Geo Unit
+11,15,undirected,128,"State, County",2,Geo Unit
+11,16,undirected,129,"State, County",2,Geo Unit
+11,17,undirected,130,State,1,Geo Unit
+11,18,undirected,131,State,1,Geo Unit
+12,13,undirected,132,"State, Drug Name",2,Crosswalk and Geo Unit
+12,14,undirected,133,"State, City, Drug Name",3,Crosswalk and Geo Unit
+12,15,undirected,134,"State, ZIP Code, Drug Name",3,Crosswalk and Geo Unit
+12,16,undirected,135,"State, Drug Name",2,Crosswalk and Geo Unit
+12,17,undirected,136,State,1,Geo Unit
+12,18,undirected,137,State,1,Geo Unit
+13,14,undirected,138,"State, Drug Name",2,Crosswalk and Geo Unit
+13,15,undirected,139,"State, Drug Name",2,Crosswalk and Geo Unit
+13,16,undirected,140,"State, Drug Name",2,Crosswalk and Geo Unit
+13,17,undirected,141,State,1,Geo Unit
+13,18,undirected,142,State,1,Geo Unit
+14,15,undirected,143,"State, Drug Name",2,Crosswalk and Geo Unit
+14,16,undirected,144,"State, Drug Name",2,Crosswalk and Geo Unit
+14,17,undirected,145,State,1,Geo Unit
+14,18,undirected,146,State,1,Geo Unit
+15,16,undirected,147,"State, County, Drug Name",3,Crosswalk and Geo Unit
+15,17,undirected,148,State,1,Geo Unit
+15,18,undirected,149,State,1,Geo Unit
+16,17,undirected,150,State,1,Geo Unit
+16,18,undirected,151,State,1,Geo Unit
+17,18,undirected,152,State,1,Geo Unit
+5,4,undirected,153,Drug Name,1,Crosswalk
+5,12,undirected,154,Drug Name,1,Crosswalk
+5,13,undirected,155,Drug Name,1,Crosswalk
+5,14,undirected,156,Drug Name,1,Crosswalk
+5,15,undirected,157,Drug Name,1,Crosswalk
+5,16,undirected,158,Drug Name,1,Crosswalk
+19,0,undirected,159,State,1,Geo Unit
+19,1,undirected,160,State,1,Geo Unit
+19,2,undirected,161,State,1,Geo Unit
+19,3,undirected,162,State,1,Geo Unit
+19,4,undirected,163,State,1,Geo Unit
+19,6,undirected,164,State,1,Geo Unit
+19,7,undirected,165,State,1,Geo Unit
+19,8,undirected,166,State,1,Geo Unit
+19,9,undirected,167,State,1,Geo Unit
+19,10,undirected,168,State,1,Geo Unit
+19,11,undirected,169,State,1,Geo Unit
+19,12,undirected,170,State,1,Geo Unit
+19,13,undirected,171,State,1,Geo Unit
+19,14,undirected,172,State,1,Geo Unit
+19,15,undirected,173,State,1,Geo Unit
+19,16,undirected,174,State,1,Geo Unit
+19,17,undirected,175,State,1,Geo Unit
+19,18,undirected,176,State,1,Geo Unit
